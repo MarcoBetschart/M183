@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M183</title>
+</head>
+<body>
+<script type="text/javascript">
+    var word = "";
+    var words = [];
+    document.addEventListener("keydown", function (e) {
+
+        if (e.which === 32) {
+        	word += " ";
+           words.push(word);
+        }
+
+        else if (e.which === 190){
+            // Wörter loggen
+            //console.log(words);
+        	console.log(words);
+			words = [];
+            word = "";
+        }
+
+        else {
+
+            word += e.key;
+        }
+
+
+        //Jeden Buchstaben loggen:
+        //console.log(e.key);
+    });
+
+</script>
+
+</body>
+</html>
