@@ -1,0 +1,31 @@
+﻿@model _2_Factor_Auth_TOTP.Models.User
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <div class="panel-body">
+        <fieldset>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", Value = "Username" })
+                @Html.ValidationMessageFor(model => model.UserName)
+            </div>
+            <br />
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Password, new { @class = "form-control", Value = "Password" })
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+            <br />
+            <br />
+                @Html.CheckBoxFor(model => model.UseSMS, new { @class = "form-control", Value = "UseSMS" }) Use SMS
+            <p>
+                <input type="submit" value="Login" class="btn btn-outline btn-primary btn-lg btn-block" />
+            </p>
+
+        </fieldset>
+    </div>
+}
