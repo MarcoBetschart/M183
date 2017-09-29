@@ -1,18 +1,24 @@
-﻿ 209870168283-hqpjin6gr2p72j60g24viicvk5mibm52.apps.googleusercontent.com Client-Id
- dv7wgl07d1VvISiyXMwIiu_l Client Schlüssel
+﻿ 
 @{
-    Layout = null;
-}
+    ViewBag.Title = "HomePage";
+} dv7wgl07d1VvISiyXMwIiu_l Client Schlüssel
 
-<!DOCTYPE html>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <br />
+            <form>
+                <label>Username</label>
+                <input type="text" name="username" class="form-control" />
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div> 
+                <label>Password</label>
+                <input type="password" name="pw" class="form-control" />
+
+                <br />
+                <br />
+                <input type="submit" class="btn btn-primary" />
+
+                <div class="g-signin2 pull-right" data-onsuccess="onSiginIn"></div>
+            </form>
+
+        </div>
     </div>
-</body>
-</html>
