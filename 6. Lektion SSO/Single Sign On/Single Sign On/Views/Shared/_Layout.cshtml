@@ -8,11 +8,34 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <meta name="google-signin-client_id" content="209870168283-hqpjin6gr2p72j60g24viicvk5mibm52.apps.googleusercontent.com Client-Id" />
+    <meta name="google-signin-client_id" content="209870168283-hqpjin6gr2p72j60g24viicvk5mibm52.apps.googleusercontent.com" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
     <title>_Layout</title>
 </head>
 <body>
-
+    @RenderBody();
     <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <script type="text/javascript">
+        function onSignIn(googleUser) {
+            var id_token = googleUser.getAuthResponse().id_token;
+
+            var profile = googleUser.getBasicProfile();
+            console.log('ID: ', profile.getId());
+            console.log('Name: ', profile.getName());
+            console.log('Image URL: ', profile.GetImageUrl);
+            console.log('Email: ', profile.getEmail);
+            console.log('ID-TOKEN: ', profile.id_token);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', "http://localhost:41289/Home/Index");
+            xhr.setRequestHeader('Content-Type', 'application-x-www-form-urlencoded');
+            xhr.onload = function () {
+                console.log('Signed in as:' + xhr.responseText);
+            };
+            xhr.send('id-token=' + id_token);
+        }
+    </script>
 </body>
 </html>
