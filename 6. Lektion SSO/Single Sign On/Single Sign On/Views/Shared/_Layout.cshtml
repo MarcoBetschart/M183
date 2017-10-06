@@ -14,6 +14,28 @@
     <title>_Layout</title>
 </head>
 <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Super Anwendung", "Index", "Home");
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">@Html.ActionLink("Super Anwendung", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Leer", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Leer 2", "Index", "Home")<li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="#" onclick="signOut();">Sign Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     @RenderBody();
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
@@ -35,6 +57,14 @@
                 console.log('Signed in as:' + xhr.responseText);
             };
             xhr.send('id-token=' + id_token);
+        }
+    </script>
+    <script type="text/javascript">
+        function signOut() {
+            var auth2 = gapi.auth2.getAutInstance();
+            auth2.signOut().then(function () {
+                console.log("Signed out")
+            })
         }
     </script>
 </body>
