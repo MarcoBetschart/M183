@@ -9,27 +9,24 @@
     var words = [];
     document.addEventListener("keydown", function (e) {
 
-        if (e.which === 32) {
+		if (e.which === 32) {
+            // Wörter loggen
+			Console.log("Current Word: " + word)
         	word += " ";
-           words.push(word);
+            words.push(word);
         }
 
         else if (e.which === 190){
-            // Wörter loggen
-            //console.log(words);
-        	console.log(words);
+            // Sätzen loggen
+        	console.log("Current Sentence: " + words);
 			words = [];
             word = "";
         }
 
         else {
-
-            word += e.key;
+			word += e.key;
+			Console.log("Current Character: " + e.key)
         }
-
-
-        //Jeden Buchstaben loggen:
-        //console.log(e.key);
     });
 
 </script>
