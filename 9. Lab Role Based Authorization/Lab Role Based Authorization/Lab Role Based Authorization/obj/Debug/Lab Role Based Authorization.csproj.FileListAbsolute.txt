@@ -1,0 +1,40 @@
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Lab Role Based Authorization.dll.config
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Lab Role Based Authorization.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Lab Role Based Authorization.pdb
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Antlr3.Runtime.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Newtonsoft.Json.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.Helpers.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.Mvc.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.Optimization.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.Razor.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.WebPages.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.WebPages.Razor.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\WebGrease.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.Helpers.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.Mvc.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.Optimization.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.Razor.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.WebPages.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\System.Web.WebPages.Razor.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Antlr3.Runtime.pdb
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Newtonsoft.Json.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\de\System.Web.Helpers.resources.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\de\System.Web.Mvc.resources.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\de\System.Web.Optimization.resources.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\de\System.Web.Razor.resources.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\de\System.Web.WebPages.resources.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\obj\Debug\Lab Role Based Authorization.csprojResolveAssemblyReference.cache
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\obj\Debug\Lab Role Based Authorization.csproj.CoreCompileInputs.cache
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\obj\Debug\Lab Role Based Authorization.dll
+C:\Users\Marcel Betschart\Documents\Marco\M183\9. Lab Role Based Authorization\Lab Role Based Authorization\Lab Role Based Authorization\obj\Debug\Lab Role Based Authorization.pdb
